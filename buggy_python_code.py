@@ -25,7 +25,7 @@ def fetch_website(urllib_version, url):
     # Import the requested version (2 or 3) of urllib
     if urllib_version == "2":
 	exec("import urllib2 as urllib")
-    else if urllib_version == "3":
+    elif urllib_version == "3":
 	exec("import urllib3 as urllib")
     # Fetch and print the requested URL
  
